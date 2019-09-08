@@ -1,0 +1,18 @@
+{
+    "manual_testing":["Introduction",
+        "Software Company Structure",
+        "SDLC","Types Of Software Testing",
+        "Black box testing techniques with practical examples",
+        "Performance Testing",
+        "Test Cases",
+        "STLC",
+        "Working of code coverage tool",
+        "White Box Versus Black Box Testing",
+    "How to perform white box testing",
+    "Difference between smoke and sanity",
+    "What are stubs and drivers",
+    "Difference between verification and validation",
+    "Difference between static and dynamic testing",
+    "Metrics and Analysis"
+]
+}

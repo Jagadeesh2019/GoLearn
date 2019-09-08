@@ -56,8 +56,10 @@ public class RecyclerTopicNamesAdapter extends RecyclerView.Adapter<RecyclerTopi
                 public void onClick(View v) {
                     int position = getAdapterPosition();
                     Bundle bundle = new Bundle();
-
-                    context.startActivity(new Intent(context, ContentActivity.class));
+                    bundle.putString("TopicIndex",courseList.get(position));
+                    Intent intent = new Intent(context,ContentActivity.class);
+                    intent.putExtras(bundle);
+                    context.startActivity(intent);
                 }
             });
         }
