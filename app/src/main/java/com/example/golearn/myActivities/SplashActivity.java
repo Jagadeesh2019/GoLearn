@@ -28,7 +28,7 @@ public class SplashActivity extends AppCompatActivity {
                 //check for internet
                 //start next activity
                 if(checkInternetConnectivity()){
-                    startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+                    startActivity(new Intent(getApplicationContext(),ExpandableListHomeActivity.class));
                     finish();
                 }else {
                    android.app.AlertDialog.Builder alertDialog = new android.app.AlertDialog.Builder(SplashActivity.this);
