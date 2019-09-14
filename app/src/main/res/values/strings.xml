@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Software"\n"Testing</string>
     <string name="app_subtitle"></string>
+    <string name="definitionHeader">Definition : </string>
+    <string name="analogyHeader">Analogy : </string>
+    <string name="explanationHeader">Explanation : </string>
+    <string name="impPointsHeader">Important Points : </string>
 </resources>

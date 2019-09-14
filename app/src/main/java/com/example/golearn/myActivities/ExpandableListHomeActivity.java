@@ -121,4 +121,12 @@ public class ExpandableListHomeActivity extends AppCompatActivity {
 
     }
 
+
+    public void prepareData(){
+
+        //Get the JSON file of topics list and subtopics name
+        //If subtopic for a topic is none.
+
+    }
+
 }

@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:padding="10dp"
             android:orientation="horizontal"
-            android:background="@android:color/holo_purple">
+            android:background="#FF3333">
 
             <android.support.v7.widget.AppCompatTextView
                 android:id="@+id/topic_name"
